@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Webpage</title>
+    <link rel="icon" href="img/ResidentEvil.png">
+    <!--<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">-->
+    <!--<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">-->
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">-->
+    <!--<link rel="manifest" href="img/site.webmanifest">-->
     <style>
         * {
             margin: 0;
@@ -38,17 +43,29 @@
         }
 
         .images-container img {
-            width: 100px;
+            width: 300px;
             height: auto;
             filter: brightness(0.8);
+        }
+
+        .images-container img.flipped {
+            transform: scaleX(-1);
         }
 
         .social-links {
             display: flex;
             gap: 15px;
+            align-items: center;
+        }
+
+        .social-link-icon {
+            width: 50px;
         }
 
         .social-links a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-decoration: none;
             color: #00ff00;
             font-size: 1.2rem;
@@ -64,14 +81,18 @@
     <h1>Web Under Construction</h1>
     
     <div class="images-container">
-        <img src="img/emotiguyComputer.gif" alt="Image 1">
-        <img src="img/emotiguyConstructor-removebg.png" alt="Image 2">
+        <img src="img/emotiguyConstructor-removebg.png" class="flipped" alt="constructor 1">
+        <img src="img/emotiguyComputer.gif" alt="computerguy 1">
+        <img src="img/emotiguyConstructor-removebg.png" alt="constructor 2">
     </div>
 
     <div class="social-links">
-        <a href="https://github.com/your-username" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/your-username" target="_blank">LinkedIn</a>
-        <a href="https://twitter.com/your-username" target="_blank">Twitter</a>
+        <a href="https://github.com/franlo42" target="_blank" class="social-link">
+            <img src="img/githubIconGreen.png" alt="GitHub Logo" class="social-link-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/francisco-lozano-mellado-72b566291/" target="_blank" class="social-link">
+            <img src="img/linkedinIconGreen.png" alt="LinkedIn Logo" class="social-link-icon">
+        </a>
     </div>
 </body>
 </html>
