@@ -6,6 +6,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+
+  site: 'https://franlo42.is-a.dev',
+
   devToolbar: {
     enabled: false
   },
