@@ -60,7 +60,7 @@
 }
 
 .user__name {
-	color: var(--terminal-user-color, #ca88d1);
+	color: var(--terminal-user-color, #4af626);
 }
 
 .separator {
