@@ -27,34 +27,34 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
+		imgSrc: '../img/NATS.png',
+		title: 'CLI chat NATS',
 		skills: ['JavaScript', 'Bootstrap'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'A lightweight, real-time chat application built using NATS as the messaging system. This application supports multiple chat channels, message persistence, and replay functionality.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/franlo42/NATSchatCLI',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
+		imgSrc: '../img/OAuth.jpg',
+		title: 'OAuth 2.0',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Proyecto de aprendizaje sobre OAuth 2.0 para autenticar y autorizar usuarios en una pequeña aplicación web de prueba para crear y gestionar una lista de tareas.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/alerone/OAuthRSE',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
+		imgSrc: '../img/ThreeJS.jpg',
+		title: 'ThreeJS Playground',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'A place for learning ThreeJS and discovering new things! The limit is our imagination.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/franlo42/3jsPlayground',
 		anim: 'fade-left',
 	}
 ];
