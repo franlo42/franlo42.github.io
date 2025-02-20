@@ -19,7 +19,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/toDoList.jpeg',
 		title: 'toDo List Webapp',
-		skills: ['React', 'StyledComponents', 'Golang'],
+		skills: ['Golang', 'Docker'],
 		descripcion:
 			'Simple web application that allows you to organize your daily tasks effectively. You can add new tasks, mark them as completed or delete them when you no longer need them. Ideal for those who want to keep a clear and accesible control of their to-dos. This application is your personal assistant to keep you focused and organized. Managing your tasks has never been so easy!',
 		demoURL: '',
@@ -29,7 +29,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/NATS.png',
 		title: 'CLI chat NATS',
-		skills: ['JavaScript', 'Bootstrap'],
+		skills: ['Golang', 'Bash', 'Docker'],
 		descripcion:
 			'A lightweight, real-time chat application built using NATS as the messaging system. This application supports multiple chat channels, message persistence, and replay functionality.',
 		demoURL: '',
@@ -40,7 +40,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/OAuth.jpg',
 		title: 'OAuth 2.0',
-		skills: ['React', 'CSS', 'Python'],
+		skills: ['Python', 'CSS', 'HTML', 'JavaScript'],
 		descripcion:
 			'Proyecto de aprendizaje sobre OAuth 2.0 para autenticar y autorizar usuarios en una pequeña aplicación web de prueba para crear y gestionar una lista de tareas.',
 		demoURL: '',
@@ -50,7 +50,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/ThreeJS.jpg',
 		title: 'ThreeJS Playground',
-		skills: ['React', 'CSS'],
+		skills: ['JavaScript', 'HTML'],
 		descripcion:
 			'A place for learning ThreeJS and discovering new things! The limit is our imagination.',
 		demoURL: '',
@@ -69,7 +69,11 @@ const skillIcons = {
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
 	Golang: 'skill-icons:golang',
-	Python: 'skill-icons:python'
+	Python: 'skill-icons:python',
+	Docker: 'skill-icons:docker',
+	Bash: 'skill-icons:bash',
+	HTML: 'skill-icons:html'
+
 };
 
 /**
