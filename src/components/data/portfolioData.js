@@ -71,7 +71,7 @@ const skillIcons = {
 	Golang: 'skill-icons:golang',
 	Python: 'skill-icons:python-light',
 	Docker: 'skill-icons:docker',
-	Bash: 'skill-icons:bash-light',
+	Bash: 'skill-icons:bash-dark',
 	HTML: 'skill-icons:html'
 
 };
