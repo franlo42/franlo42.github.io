@@ -16,15 +16,15 @@
 
 .about__img {
 	background-color: #000000;
-	-webkit-mask-image: radial-gradient(ellipse, #000 53%, #0000 68%);
+	-webkit-mask-image: radial-gradient(circle, #000 53%, #0000 18%);
 	border-radius: 50%;
-	mask-image: radial-gradient(ellipse, #000 53%, #0000 68%);
-	border-radius: 50%;
+	mask-image: radial-gradient(circle, #000 53%, #0000 18%);
 	object-fit: cover;
+	object-position: -50px 100px;
 	width: 39.5rem;
-	height: 48.1rem;
+	height: 39.5rem;
 	min-width: 39.5rem;
-	min-height: 48.1rem;
+	min-height: 39.5rem;
 	transform: scaleX(-1);
 }
 
