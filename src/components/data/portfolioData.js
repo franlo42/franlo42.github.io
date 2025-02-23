@@ -53,7 +53,7 @@ export const portafolioData = [
 		skills: ['JavaScript', 'HTML'],
 		descripcion:
 			'A place for learning ThreeJS and discovering new things! The limit is our imagination.',
-		demoURL: '',
+		demoURL: 'https://franlo42.is-a.dev/3js',
 		repoURL: 'https://github.com/franlo42/3jsPlayground',
 		anim: 'fade-left',
 	}
