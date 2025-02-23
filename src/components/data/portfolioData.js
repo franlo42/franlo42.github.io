@@ -69,7 +69,7 @@ const skillIcons = {
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
 	Golang: 'skill-icons:golang',
-	Python: 'skill-icons:python-light',
+	Python: 'skill-icons:python-dark',
 	Docker: 'skill-icons:docker',
 	Bash: 'skill-icons:bash-dark',
 	HTML: 'skill-icons:html'
