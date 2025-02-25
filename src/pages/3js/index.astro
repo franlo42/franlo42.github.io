@@ -1,40 +1,25 @@
 ---
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
-import CardBlog from '../../components/CardBlog.astro';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/header/Header.astro';
 import { menuBlog } from '../../components/data/menuData';
 import Footer from '../../components/Footer/Footer.astro';
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+import Title from '../../components/atoms/Title.astro';
+import { threejsData} from "../../components/data/3jsData.js"
+import Card from '../../components//card-3js/Card3js.astro';
 ---
 
 <Layout title="ThreeJS Proyectos">
 	<Header origin={menuBlog} name="Fran Lozano Mellado" />
 	<main class="self-center w-full">
-		<section class="blog__section min-h-[100dvh]">
-			<ul class="blog__elements">
-				{
-					posts.map((post) => (
-						<li>
-							<CardBlog
-								title={post.data.title}
-								content={post.data.description}
-								img={post.data.heroImage}
-								href={`/blog/${post.slug}/`}
-							>
-								<FormattedDate
-									slot="date"
-									clase="text-[--secondary-90] font-bold font-xl"
-									date={post.data.pubDate}
-								/>
-							</CardBlog>
-						</li>
-					))
-				}
-			</ul>
+		<section id="3jsportfolio" class="blog__section min-h-[100dvh]">
+			<div class="portfolio__container">
+				<Title contenido="3js Portfolio" />
+				<div class="portfolio__elements">
+					{threejsData.map((props) => <Card {...props} />)}
+				</div>
+			</div>
 		</section>
 	</main>
 	<Footer />
@@ -65,3 +50,22 @@ const posts = (await getCollection('blog')).sort(
 		}
 	}
 </style>
+<script>
+	import { getIMGAverageColor } from '../../utils/average-img-color/average-img-color';
+
+	const $cards = document.querySelectorAll('.card__portfolio');
+	$cards.forEach((card) => {
+		const $container = card.querySelector<HTMLDivElement>(
+			'.descripcion__container'
+		);
+		const $img = card.querySelector('img');
+		if (!$img || !$container) return;
+
+		const setBg = () => {
+			const [rbgString] = getIMGAverageColor($img, 0.7);
+			$container.style.background = rbgString;
+		};
+		setBg();
+		$img.onload = setBg;
+	});
+</script>

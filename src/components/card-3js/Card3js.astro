@@ -1,0 +1,37 @@
+---
+import './card-3js.css';
+const {
+	title,
+	descripcion,
+	imgSrc,
+	demoURL,
+	averageBrightness,
+} = Astro.props;
+---
+
+<div class="card__portfolio">
+	<img
+		src={imgSrc}
+		alt={title}
+		crossorigin="anonymous"
+		height={130}
+		width={332}
+		loading="lazy"
+		average-brightness={averageBrightness}
+	/>
+
+	<div class="descripcion__container">
+		<h2 class="card__title">{title}</h2>
+		<div class="descripcion">
+			<p>{descripcion}</p>
+			<div class="buttons">
+				<a href={demoURL}>
+					<span>
+						Demo
+						{(<iconify-icon icon="quill:link-out" />)}
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

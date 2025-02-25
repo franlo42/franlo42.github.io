@@ -9,3 +9,9 @@ export const menuBlog = [
      {link:"/#about", content:"About", icon:"octicon:person-24"},
      {link:"/#portafolio", content:"Portfolio", icon:"carbon:portfolio"},
 ]
+export const menu3js = [
+     {link:"/", content:"Home", icon:"lucide:home"},
+     {link:"/#about", content:"About", icon:"octicon:person-24"},
+     {link:"/#portafolio", content:"Portfolio", icon:"carbon:portfolio"},
+     {link:"/#blog", content:"Blog", icon:"mdi:blog"}
+]
