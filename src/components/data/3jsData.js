@@ -19,7 +19,7 @@ export const threejsData = [
 		title: 'Introducción',
 		descripcion:
 			'desc1.',
-		demoURL: '',
+		demoURL: '/3js/practica1',
 		anim: 'fade-right',
 	},
 	{
