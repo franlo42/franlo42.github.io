@@ -19,7 +19,7 @@ export const threejsData = [
 		title: 'Introducción',
 		descripcion:
 			'desc1.',
-		demoURL: '/3js/practica1/index.astro',
+		demoURL: '/3js/practica1/',
 		anim: 'fade-right',
 	},
 	{
@@ -27,7 +27,7 @@ export const threejsData = [
 		title: 'Animación & GUI',
 		descripcion:
 			'desc2.',
-		demoURL: '',
+		demoURL: '/3js/practica2/',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
@@ -36,7 +36,7 @@ export const threejsData = [
 		title: 'Iluminación & Materiales',
 		descripcion:
 			'dec3.',
-		demoURL: '',
+		demoURL: '/3js/practica3/',
 		anim: 'fade-left',
 	}
 ];
