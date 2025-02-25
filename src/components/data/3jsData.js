@@ -15,36 +15,28 @@
  */
 export const threejsData = [
 	{
-		imgSrc: '../img/toDoList.jpeg',
-		title: 'toDo List Webapp',
+		imgSrc: '../img/practica1.png',
+		title: 'Introducción',
 		descripcion:
-			'Simple web application that allows you to organize your daily tasks effectively. You can add new tasks, mark them as completed or delete them when you no longer need them. Ideal for those who want to keep a clear and accesible control of their to-dos. This application is your personal assistant to keep you focused and organized. Managing your tasks has never been so easy!',
+			'desc1.',
 		demoURL: '',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '../img/NATS.png',
-		title: 'CLI chat NATS',
+		imgSrc: '../img/practica1.png',
+		title: 'Animación & GUI',
 		descripcion:
-			'A lightweight, real-time chat application built using NATS as the messaging system. This application supports multiple chat channels, message persistence, and replay functionality.',
+			'desc2.',
 		demoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: '../img/OAuth.jpg',
-		title: 'OAuth 2.0',
+		imgSrc: '../img/practica1.png',
+		title: 'Iluminación & Materiales',
 		descripcion:
-			'Proyecto de aprendizaje sobre OAuth 2.0 para autenticar y autorizar usuarios en una pequeña aplicación web de prueba para crear y gestionar una lista de tareas.',
+			'dec3.',
 		demoURL: '',
-		anim: 'fade-left',
-	},
-	{
-		imgSrc: '../img/ThreeJS.jpg',
-		title: 'ThreeJS Playground',
-		descripcion:
-			'A place for learning ThreeJS and discovering new things! The limit is our imagination.',
-		demoURL: 'https://franlo42.is-a.dev/3js',
 		anim: 'fade-left',
 	}
 ];

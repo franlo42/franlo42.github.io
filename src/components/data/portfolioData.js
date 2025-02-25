@@ -50,7 +50,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/ThreeJS.jpg',
 		title: 'ThreeJS Playground',
-		skills: ['JavaScript', 'HTML'],
+		skills: ['ThreeJS', 'JavaScript', 'HTML'],
 		descripcion:
 			'A place for learning ThreeJS and discovering new things! The limit is our imagination.',
 		demoURL: 'https://franlo42.is-a.dev/3js',
@@ -72,7 +72,8 @@ const skillIcons = {
 	Python: 'skill-icons:python-dark',
 	Docker: 'skill-icons:docker',
 	Bash: 'skill-icons:bash-dark',
-	HTML: 'skill-icons:html'
+	HTML: 'skill-icons:html',
+	ThreeJS: 'skill-icons:threejs-light'
 
 };
 
