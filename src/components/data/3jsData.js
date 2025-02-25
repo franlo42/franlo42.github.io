@@ -18,7 +18,7 @@ export const threejsData = [
 		imgSrc: '../img/practica1.png',
 		title: 'Introducción',
 		descripcion:
-			'desc1.',
+			'Escena básica: 5 objetos organizados en los vertices de un pentágono, animación básica y modelos importados.',
 		demoURL: '/3js/practica1/',
 		anim: 'fade-right',
 	},
@@ -26,7 +26,7 @@ export const threejsData = [
 		imgSrc: '../img/practica1.png',
 		title: 'Animación & GUI',
 		descripcion:
-			'desc2.',
+			'Escena básica: Añadir al trabajo anterior una interfaz de usuario para interactuar con la escena y animaciones disparadas por acción del usuario. Además posibilidad de mover la camara con el ratón.',
 		demoURL: '/3js/practica2/',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
@@ -35,7 +35,7 @@ export const threejsData = [
 		imgSrc: '../img/practica1.png',
 		title: 'Iluminación & Materiales',
 		descripcion:
-			'dec3.',
+			'Escena básica: Añadir al trabajo anterior iluminación, sombras, videos y otros diferentes materiales.',
 		demoURL: '/3js/practica3/',
 		anim: 'fade-left',
 	}
