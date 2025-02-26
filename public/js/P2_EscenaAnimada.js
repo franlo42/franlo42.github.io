@@ -10,11 +10,11 @@
  */
 
 // Modulos necesarios
-import * as THREE from "../lib/three.module.js";
-import {GLTFLoader} from "../lib/GLTFLoader.module.js";
-import {OrbitControls} from "../lib/OrbitControls.module.js";
-import {TWEEN} from "../lib/tween.module.min.js";
-import {GUI} from "../lib/lil-gui.module.min.js";
+import * as THREE from "/lib/three.module.js";
+import {GLTFLoader} from "/lib/GLTFLoader.module.js";
+import {OrbitControls} from "/lib/OrbitControls.module.js";
+import {TWEEN} from "/lib/tween.module.min.js";
+import {GUI} from "/lib/lil-gui.module.min.js";
 
 // Variables de consenso
 let renderer, scene, camera;
@@ -120,7 +120,7 @@ function loadScene()
    // TO DO: Añadir a la escena un modelo importado en el centro del pentagono
    const glloader = new GLTFLoader();
 
-   glloader.load( '../models/robota/scene.gltf', function ( gltf ) {
+   glloader.load( '/models/robota/scene.gltf', function ( gltf ) {
        gltf.scene.position.set(0,-1,0);
        gltf.scene.rotation.y = -Math.PI/2;
        figures.add( gltf.scene );
