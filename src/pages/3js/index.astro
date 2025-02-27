@@ -71,8 +71,8 @@ import Card from '../../components//card-3js/Card3js.astro';
 		if (!$img || !$container) return;
 
 		const setBg = () => {
-			const [rbgString] = getIMGAverageColor($img, 0.7);
-			$container.style.background = rbgString;
+			//const [rbgString] = getIMGAverageColor($img, 0.7);
+			$container.style.background = "black";
 		};
 		setBg();
 		$img.onload = setBg;
