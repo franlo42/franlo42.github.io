@@ -101,22 +101,22 @@
             <img id="titulo" src="/img/introCut.png" alt="gameTitle">
             <button id="play">PLAY</button>
             <audio id="musicIntro" autoplay loop>
-                <source src="music/intro.mp3" type="audio/mp3">
+                <source src="/music/intro.mp3" type="audio/mp3">
             </audio>
             <audio id="musicRace" loop>
-                <source src="music/race.mp3" type="audio/mp3">
+                <source src="/music/race.mp3" type="audio/mp3">
             </audio>
         </div>
         <button id="ready">READY</button>
         <img id="countdown" src="img/countdown.gif" alt="countdown" width="500" height="600">
         <audio id="musicCountdown">
-            <source src="music/countdown.mp3" type="audio/mp3">
+            <source src="/music/countdown.mp3" type="audio/mp3">
         </audio>
         <div id="timer">00:00:00</div>
         <div id="container"></div>
         <script type="importmap">
-            { "imports": { "three": "../lib/three.module.js"} }
+            { "imports": { "three": "/lib/three.module.js"} }
         </script>
-        <script  type="module" src="js/game.js"></script>
+        <script  type="module" src="/js/game.js"></script>
     </body>
 </html>
