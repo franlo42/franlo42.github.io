@@ -50,7 +50,7 @@ function initLobby() {
   camera.lookAt(0, 1, 0);
 
   // Se puede usar OrbitControls para el lobby si se desea
-  new OrbitControls(camera, renderer.domElement);
+  //new OrbitControls(camera, renderer.domElement);
 }
 
 // Carga del modelo de introducción en el lobby
