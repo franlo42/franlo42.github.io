@@ -38,5 +38,13 @@ export const threejsData = [
 			'Escena básica: Añadir al trabajo anterior iluminación, sombras, videos y otros diferentes materiales.',
 		demoURL: '/3js/practica3/',
 		anim: 'fade-left',
+	},
+	{
+		imgSrc: '../img/introCut.png',
+		title: 'WarioKart 3D',
+		descripcion:
+			'Mini web port of the famous saga Mario Kart dedicated to Wario.',
+		demoURL: 'https://franlo42.is-a.dev/3js/wariokart3d/',
+		anim: 'fade-left',
 	}
 ];

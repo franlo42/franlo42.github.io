@@ -56,6 +56,16 @@ export const portafolioData = [
 		demoURL: 'https://franlo42.is-a.dev/3js',
 		repoURL: 'https://github.com/franlo42/3jsPlayground',
 		anim: 'fade-left',
+	},
+	{
+		imgSrc: '../img/introCut.png',
+		title: 'WarioKart 3D',
+		skills: ['Blender','ThreeJS', 'JavaScript', 'HTML'],
+		descripcion:
+			'Mini web port of the famous saga Mario Kart dedicated to Wario.',
+		demoURL: 'https://franlo42.is-a.dev/3js/wariokart3d/',
+		repoURL: 'https://github.com/franlo42/wariokart3d',
+		anim: 'fade-left',
 	}
 ];
 
@@ -73,7 +83,8 @@ const skillIcons = {
 	Docker: 'skill-icons:docker',
 	Bash: 'skill-icons:bash-dark',
 	HTML: 'skill-icons:html',
-	ThreeJS: 'skill-icons:threejs-light'
+	ThreeJS: 'skill-icons:threejs-light',
+	Blender: 'skill-icons:blender-light'
 
 };
 
