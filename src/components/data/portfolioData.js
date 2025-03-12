@@ -60,7 +60,7 @@ export const portafolioData = [
 	{
 		imgSrc: '../img/introCut.png',
 		title: 'WarioKart 3D',
-		skills: ['Blender','ThreeJS', 'JavaScript', 'HTML'],
+		skills: ['Blender','ThreeJS', 'JavaScript', 'HTML', 'CSS'],
 		descripcion:
 			'Mini web port of the famous saga Mario Kart dedicated to Wario.',
 		demoURL: 'https://franlo42.is-a.dev/3js/wariokart3d/',
